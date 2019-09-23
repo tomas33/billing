@@ -1,0 +1,13 @@
+fos_user:
+    db_driver: orm # other valid values are 'mongodb' and 'couchdb'
+    firewall_name: main
+    user_class: App\Entity\User
+    from_email:
+        address:        noreply@example.com
+        sender_name:    Demo App 
+    registration:
+        confirmation:
+            from_email:
+                address:        registration@example.com
+                sender_name:    Demo Registration
+            enabled: true           
