@@ -7,7 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class LuckyController extends AbstractController
 {
-    public function number()
+    public function __invoke()
     {
 
         return $this->render('base.html.twig');

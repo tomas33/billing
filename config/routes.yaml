@@ -1,7 +1,7 @@
 app_lucky_number:
     path: /
-    controller: App\Controller\LuckyController::number
-    
+    controller: App\Controller\LuckyController
+
 app_login_login:
     path: /login
-    controller: App\Controller\LoginController::login
+    controller: App\Controller\LoginController
