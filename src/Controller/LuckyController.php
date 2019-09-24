@@ -9,10 +9,7 @@ class LuckyController extends AbstractController
 {
     public function number()
     {
-        $number = random_int(0, 100);
 
-        return $this->render('layout.html.twig', [
-            'number' => $number,
-        ]);
+        return $this->render('base.html.twig');
     }
 }

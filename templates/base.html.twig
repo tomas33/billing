@@ -2,13 +2,15 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+       
+        {% block stylesheets %}
+        <link href="{{ asset('style.css') }}" rel="stylesheet"/>
+        {% endblock %}
     </head>
     <body>
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
-        {% block title %}Demo Application{% endblock %}
+        {% block title %}{% endblock %}
 
     {% block content %}
         {% block fos_user_content %}{% endblock %}
