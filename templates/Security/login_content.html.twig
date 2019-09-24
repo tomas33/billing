@@ -1,9 +1,14 @@
-{% trans_default_domain 'FOSUserBundle' %}
+
 
 {% if error %}
     <div>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
 {% endif %}
-
+ <svg data-type="Rectangle" data-name="fondo" class="fondo_Class">
+		<rect fill="rgba(255,255,255,1)" 
+		class="" rx="21" ry="21" x="0" y="0"
+		 width="1187" height="767">
+		</rect>
+	</svg>
 <form action="{{ path("fos_user_security_check") }}" method="post">
     {% if csrf_token %}
         <input type="hidden" name="_csrf_token" value="{{ csrf_token }}" />

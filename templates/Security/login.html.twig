@@ -1,5 +1,15 @@
-{% extends "@FOSUser/layout.html.twig" %}
+{% extends "layout.html.twig" %}
 
 {% block fos_user_content %}
-    {{ include('@FOSUser/Security/login_content.html.twig') }}
+    {{ include('Security/login_content.html.twig') }}
+         <div>
+            {% block fos_user_content %}
+            <svg data-type="Rectangle" data-name="fondo" class="fondo_Class">
+		<rect fill="rgba(255,255,255,1)" 
+		class="" rx="21" ry="21" x="0" y="0"
+		 width="1187" height="767">
+		</rect>
+	</svg>
+    </div>
+
 {% endblock fos_user_content %}

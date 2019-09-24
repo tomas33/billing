@@ -1,0 +1,566 @@
+.mediaViewInfo {
+	--web-view-name: INICIO DE SESIÓN;
+	--web-view-id: INICIO_DE_SESI_N;
+	--web-enable-scale-up:true ;
+	--web-scale-on-double-click: true;
+	--web-show-scale-controls: true;
+	--web-actual-size-on-double-click: true;
+	--web-center-horizontally: false;
+	--web-navigate-on-keypress: false;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: INICIO_DE_SESI_N;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.INICIO_DE_SESI_N_Class {
+	position: absolute;
+	box-sizing: border-box;
+	transform: translateX(-50%);
+	left: 50%;
+	background: #E5E5E5;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	--web-view-name: INICIO DE SESIÓN;
+	--web-view-id: INICIO_DE_SESI_N;
+	--web-enable-scale-up: true;
+	--web-scale-on-double-click: true;
+	--web-show-scale-controls: true;
+	--web-actual-size-on-double-click: true;
+	--web-center-horizontally: true;
+	--web-navigate-on-keypress: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+.fondo_principal_Class {
+	opacity: 0.1;
+}
+.fondo_principal {
+	position: absolute;
+	overflow: visible;
+	width: 1931px;
+	height: 1093px;
+	left: -11px;
+	top: -13px;
+}
+.lineas_finas_Class {
+	position: absolute;
+	width: 2472.49px;
+	height: 2253.498px;
+	left: -423.49px;
+	top: -516px;
+	overflow: visible;
+}
+.Trazado_116 {
+	overflow: visible;
+	position: absolute;
+	top: 368.113px;
+	left: 1746.49px;
+	width: 728px;
+	height: 1166.271px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Trazado_117 {
+	overflow: visible;
+	position: absolute;
+	top: 423.445px;
+	left: 0px;
+	width: 1224.693px;
+	height: 1374.639px;
+	transform: rotate(31deg);
+}
+.Trazado_118 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 706.535px;
+	width: 1321.398px;
+	height: 1353.836px;
+	transform: rotate(222deg);
+}
+.Trazado_119 {
+	overflow: visible;
+	position: absolute;
+	top: 901px;
+	left: 1108.535px;
+	width: 1321.398px;
+	height: 1353.836px;
+	transform: rotate(222deg);
+}
+.fondo_Class {
+	filter: drop-shadow(0px 3px 30px rgba(0, 0, 0, 0.188));
+}
+.fondo {
+	position: absolute;
+	overflow: visible;
+	width: 1277px;
+	height: 857px;
+	left: 367px;
+	top: 133px;
+}
+.Grupo_40_Class {
+	position: absolute;
+	width: 414px;
+	height: 415.17px;
+	left: 974px;
+	top: 301px;
+	overflow: visible;
+}
+.Entra_en_tu_perfil_Class {
+	position: absolute;
+	left: 18px;
+	top: 0px;
+	overflow: visible;
+	width: 379px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 51px;
+	color: rgba(40,73,64,1);
+}
+.Registrarse_Class {
+	position: absolute;
+	width: 195px;
+	height: 46.17px;
+	left: 110px;
+	top: 369px;
+	overflow: visible;
+}
+.boton_fino {
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	height: 46.17px;
+	left: 0px;
+	top: 0px;
+}
+.Entrar_Class {
+	position: absolute;
+	left: 74px;
+	top: 7px;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.introducir_correo_electr_nico_Class {
+	position: absolute;
+	width: 414px;
+	height: 59px;
+	left: 0px;
+	top: 106px;
+	overflow: visible;
+}
+.Rect_ngulo_3 {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+}
+.Trazado_2 {
+	overflow: visible;
+	position: absolute;
+	top: 22.248px;
+	left: 18.49px;
+	width: 22.711px;
+	height: 14.625px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Introducir_correo_electr_nico_Class {
+	position: absolute;
+	left: 59px;
+	top: 13px;
+	overflow: visible;
+	width: 230px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(180,180,180,1);
+}
+.Introducir_contrase_a_Class {
+	position: absolute;
+	width: 414px;
+	height: 59px;
+	left: 0px;
+	top: 187px;
+	overflow: visible;
+}
+.Rect_ngulo_3_A2_Rectangle_5 {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+}
+.Introducir_contrase_a_A2_Text_4_Class {
+	position: absolute;
+	left: 59px;
+	top: 13px;
+	overflow: visible;
+	width: 173px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(180,180,180,1);
+}
+.Grupo_2_Class {
+	position: absolute;
+	width: 15.585px;
+	height: 19.52px;
+	left: 22.563px;
+	top: 20px;
+	overflow: visible;
+}
+.Grupo_3_Class {
+	position: absolute;
+	width: 15.585px;
+	height: 19.52px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Trazado_3 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 15.584px;
+	height: 19.52px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Trazado_4 {
+	overflow: visible;
+	position: absolute;
+	top: 7.986px;
+	left: 4.939px;
+	width: 5.713px;
+	height: 7.664px;
+	transform: matrix(1,0,0,1,0,0);
+}
+._Has_olvidado_tu_contrase_a__Class {
+	position: absolute;
+	left: 89px;
+	top: 268.174px;
+	overflow: visible;
+	width: 237px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(40,73,64,1);
+}
+.L_nea_1 {
+	overflow: visible;
+	position: absolute;
+	top: 602.5px;
+	left: 1063.5px;
+	width: 237px;
+	height: 1px;
+}
+.Logotipo_verde {
+	overflow: visible;
+	position: absolute;
+	top: 160.002px;
+	left: 400.002px;
+	width: 77.303px;
+	height: 22.086px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Grupo_45_Class {
+	opacity: 0;
+	position: absolute;
+	width: 414px;
+	height: 415.17px;
+	left: 446px;
+	top: 301px;
+	overflow: visible;
+}
+.Crear_cuenta_Class {
+	position: absolute;
+	left: 66px;
+	top: 0px;
+	overflow: visible;
+	width: 283px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 51px;
+	color: rgba(40,73,64,1);
+}
+.Registrarse_A2_Group_9_Class {
+	position: absolute;
+	width: 195px;
+	height: 46.17px;
+	left: 110px;
+	top: 369px;
+	overflow: visible;
+}
+.boton_fino_A2_Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	height: 46.17px;
+	left: 0px;
+	top: 0px;
+}
+.Registrarse_A2_Text_7_Class {
+	position: absolute;
+	left: 53px;
+	top: 7px;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.introducir_correo_electr_nico_A2_Group_10_Class {
+	position: absolute;
+	width: 414px;
+	height: 59px;
+	left: 0px;
+	top: 186px;
+	overflow: visible;
+}
+.Rect_ngulo_3_A2_Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+}
+.Trazado_2_A2_Path_8 {
+	overflow: visible;
+	position: absolute;
+	top: 22.248px;
+	left: 18.49px;
+	width: 22.711px;
+	height: 14.625px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Introducir_correo_electr_nico_A2_Text_8_Class {
+	position: absolute;
+	left: 59px;
+	top: 13px;
+	overflow: visible;
+	width: 230px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(180,180,180,1);
+}
+.Introducir_contrase_a_A2_Group_11_Class {
+	position: absolute;
+	width: 414px;
+	height: 59px;
+	left: 0px;
+	top: 268px;
+	overflow: visible;
+}
+.Rect_ngulo_3_A2_Rectangle_8 {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+}
+.Introducir_contrase_a_A2_Text_9_Class {
+	position: absolute;
+	left: 59px;
+	top: 13px;
+	overflow: visible;
+	width: 173px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(180,180,180,1);
+}
+.Grupo_2_A2_Group_12_Class {
+	position: absolute;
+	width: 15.585px;
+	height: 19.52px;
+	left: 22.563px;
+	top: 20px;
+	overflow: visible;
+}
+.Grupo_3_A2_Group_13_Class {
+	position: absolute;
+	width: 15.585px;
+	height: 19.52px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Trazado_3_A2_Path_9 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 15.584px;
+	height: 19.52px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Trazado_4_A2_Path_10 {
+	overflow: visible;
+	position: absolute;
+	top: 7.986px;
+	left: 4.939px;
+	width: 5.713px;
+	height: 7.664px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.introducir_correo_electr_nico_A2_Group_14_Class {
+	position: absolute;
+	width: 414px;
+	height: 59px;
+	left: 0px;
+	top: 104px;
+	overflow: visible;
+}
+.Rect_ngulo_3_A2_Rectangle_9 {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+}
+.Nombre_Class {
+	position: absolute;
+	left: 59px;
+	top: 13px;
+	overflow: visible;
+	width: 68px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(180,180,180,1);
+}
+.usuario_icono {
+	overflow: visible;
+	position: absolute;
+	top: 22.5px;
+	left: 22px;
+	width: 15.004px;
+	height: 15.209px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Marco_verde {
+	position: absolute;
+	overflow: visible;
+	width: 441px;
+	height: 767px;
+	left: 367px;
+	top: 133px;
+}
+._Hola_amigo__Class {
+	position: absolute;
+	left: 446px;
+	top: 301px;
+	overflow: visible;
+	width: 277px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 51px;
+	color: rgba(255,255,255,1);
+}
+.Inserta_tus_datos_para_poder_l_Class {
+	position: absolute;
+	left: 497px;
+	top: 390px;
+	overflow: visible;
+	width: 175px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -4.5px;
+	text-align: center;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.Registrarse_verde_Class {
+	position: absolute;
+	width: 195px;
+	height: 46.166px;
+	left: 490px;
+	top: 548px;
+	overflow: visible;
+}
+.boton_fino_A2_Rectangle_11 {
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	height: 46.166px;
+	left: 0px;
+	top: 0px;
+}
+.Registrarse_A2_Text_13_Class {
+	position: absolute;
+	left: 53px;
+	top: 7px;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.Logotipo {
+	overflow: visible;
+	position: absolute;
+	top: 160.002px;
+	left: 400.002px;
+	width: 77.303px;
+	height: 22.086px;
+	transform: matrix(1,0,0,1,0,0);
+}

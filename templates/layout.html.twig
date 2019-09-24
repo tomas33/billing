@@ -1,7 +1,54 @@
-{% extends "@!FOSUser/layout.html.twig" %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+      <link href="{{ asset('style.css') }}" rel="stylesheet"/>
+    </head>
+    <body>
+        <div>
+        
+            {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+            <svg data-type="Rectangle" data-name="fondo" class="fondo_Class">
+		<rect fill="rgba(255,255,255,1)" 
+		class="" rx="21" ry="21" x="0" y="0"
+		 width="1187" height="767">
+		</rect>
+	</svg>
+                {{ 'layout.logged_in_as'|trans({'%username%': app.user.username}, 'FOSUserBundle') }} |
+                <a href="{{ path('fos_user_security_logout') }}">
+                    
+                    {{ 'layout.logout'|trans({}, 'FOSUserBundle') }}
+                </a>
+                <h1>Your lucky number is {{ number }}</h1>
+            {% else %}
+            <svg data-type="Rectangle" data-name="fondo" class="fondo_Class">
+		<rect fill="rgba(255,255,255,1)" 
+		class="" rx="21" ry="21" x="0" y="0"
+		 width="1187" height="767">
+		</rect>
+	</svg>
+                <a href="{{ path('fos_user_security_login') }}">{{ 'layout.login'|trans({}, 'FOSUserBundle') }}</a>
+            {% endif %}
+        </div>
 
-{% block title %}Perfil{% endblock %}
+        {% if app.request.hasPreviousSession %}
+            {% for type, messages in app.session.flashbag.all() %}
+                {% for message in messages %}
+                    <div class="flash-{{ type }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endfor %}
+        {% endif %}
 
-{% block content %}
-    {% block fos_user_content %}<h1>Your lucky number is {{ number }}</h1>{% endblock %}
-{% endblock %}
+        <div>
+            {% block fos_user_content %}
+            
+    
+
+            {% endblock fos_user_content %}
+        </div>
+    </body>
+</html>
+
+
